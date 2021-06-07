@@ -23,6 +23,7 @@ app.use(express.json({ extended: false }));
 // Create a basic express route
 app.get('/', (req, res) => res.json({ message: "Welcome to School app!"}));
 
+
 // PORT
 const port = process.env.PORT || PORT;
 
